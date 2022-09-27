@@ -24,7 +24,10 @@
     "test": "eslint src/*.js",
     "deploy": "gh-pages -d demo"
   },
-  "repository": "onokumus/metismenu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onokumus/metismenu.git"
+  },
   "keywords": [
     "accordion",
     "bootstrap",
